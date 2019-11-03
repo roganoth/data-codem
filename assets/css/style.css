@@ -69,7 +69,16 @@ footer {
     border-top: 8px solid #4aaaa5;
     position: fixed;
     bottom: 0;
+    height: 10px;
     width: 100%;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+table {
+    margin: auto;
+    position: relative;
+    left: 50px;
 }
 
 div {
@@ -81,7 +90,9 @@ div {
     height: 500px;
     padding: 30px;
     color: #4aaaa5;
-    margin: 0;
+    margin: auto;
+    margin-bottom: 50px;
+    overflow: auto;
 }
 
 button {
