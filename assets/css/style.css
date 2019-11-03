@@ -9,7 +9,8 @@ header {
     border-bottom: 5px solid #4aaaa5;
     overflow: auto;
     padding: 0px;
-    position: fixed;
+    /* position: fixed; */
+    /* margin-bottom: 10px; */
     top: 0;
     width: 100%;
     /* height: 100px; */
@@ -80,7 +81,7 @@ div {
     height: 500px;
     padding: 30px;
     color: #4aaaa5;
-    margin: auto;
+    margin: 0;
 }
 
 button {
@@ -99,15 +100,12 @@ form {
 }
 
 @media (max-width: 640px) {
-    /* body { */
-
-    /* } */
     header {
         width: 100%;
         }
     div {
         width: 98%;
-        height: 70%;
+        height: 700px;
     }
     nav { 
         float: right;
@@ -115,9 +113,29 @@ form {
 }
 
 @media (max-width: 768px) {
+    header {
+        width: 100%;
+        }
+    div {
+        width: 98%;
+        height: 700px;
+    }
+    nav { 
+        float: right;
+    }
 
 }
 
 @media (max-width: 980px) {
+    header {
+        width: 100%;
+        }
+    div {
+        width: 98%;
+        height: 600px
+    }
+    nav { 
+        float: right;
+    }
 
 }
